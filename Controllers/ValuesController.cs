@@ -1,9 +1,7 @@
-﻿using System.Linq;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Microsoft.AspNet.Mvc;
 using HtmlAgilityPack;
-using System.Net;
-using WebCrawlerDataPrev.Infrastructure;
+using System.Text;
 
 namespace WebCrawlerDataPrev.Controllers
 {
@@ -12,8 +10,12 @@ namespace WebCrawlerDataPrev.Controllers
     {
         public ValuesController()
         {
-            DataPrevForm dataPrevForm = new DataPrevForm();
-            dataPrevForm.Init();
+            //DataPrevForm dataPrevForm = new DataPrevForm();
+            //dataPrevForm.Init();
+
+            var html = new HtmlDocument();
+            html.Load(@"C:\Users\jose.araujo\Desktop\Htmls DataPrev\Formulario DataPrev\FormularioDataPrev.html", Encoding.GetEncoding("Windows-1252"), true);
+            var root = html.DocumentNode;
 
             //var htmlDoc = new HtmlDocument();
             //htmlDoc.LoadHtml(new WebClient().DownloadString("http://www8.dataprev.gov.br/SipaINSS/pages/hiscre/hiscreInicio.xhtml"));

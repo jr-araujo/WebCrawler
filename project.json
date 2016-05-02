@@ -5,7 +5,7 @@
   },
 
   "dependencies": {
-    "HtmlAgilityPack.NetCore": "1.4.9.2",
+    "HtmlAgilityPack": "1.4.9",
     "Microsoft.AspNet.IISPlatformHandler": "1.0.0-rc1-final",
     "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
     "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final",

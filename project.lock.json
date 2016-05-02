@@ -3,20 +3,13 @@
   "version": 2,
   "targets": {
     "DNX,Version=v4.5.1": {
-      "HtmlAgilityPack.NetCore/1.4.9.2": {
+      "HtmlAgilityPack/1.4.9": {
         "type": "package",
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core",
-          "System.Xml"
-        ],
         "compile": {
-          "lib/net45/HtmlAgilityPack.NetCore.dll": {}
+          "lib/Net45/HtmlAgilityPack.dll": {}
         },
         "runtime": {
-          "lib/net45/HtmlAgilityPack.NetCore.dll": {}
+          "lib/Net45/HtmlAgilityPack.dll": {}
         }
       },
       "Microsoft.AspNet.Antiforgery/1.0.0-rc1-final": {
@@ -1577,20 +1570,13 @@
       }
     },
     "DNX,Version=v4.5.1/win7-x86": {
-      "HtmlAgilityPack.NetCore/1.4.9.2": {
+      "HtmlAgilityPack/1.4.9": {
         "type": "package",
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core",
-          "System.Xml"
-        ],
         "compile": {
-          "lib/net45/HtmlAgilityPack.NetCore.dll": {}
+          "lib/Net45/HtmlAgilityPack.dll": {}
         },
         "runtime": {
-          "lib/net45/HtmlAgilityPack.NetCore.dll": {}
+          "lib/Net45/HtmlAgilityPack.dll": {}
         }
       },
       "Microsoft.AspNet.Antiforgery/1.0.0-rc1-final": {
@@ -3154,20 +3140,13 @@
       }
     },
     "DNX,Version=v4.5.1/win7-x64": {
-      "HtmlAgilityPack.NetCore/1.4.9.2": {
+      "HtmlAgilityPack/1.4.9": {
         "type": "package",
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core",
-          "System.Xml"
-        ],
         "compile": {
-          "lib/net45/HtmlAgilityPack.NetCore.dll": {}
+          "lib/Net45/HtmlAgilityPack.dll": {}
         },
         "runtime": {
-          "lib/net45/HtmlAgilityPack.NetCore.dll": {}
+          "lib/Net45/HtmlAgilityPack.dll": {}
         }
       },
       "Microsoft.AspNet.Antiforgery/1.0.0-rc1-final": {
@@ -4732,21 +4711,42 @@
     }
   },
   "libraries": {
-    "HtmlAgilityPack.NetCore/1.4.9.2": {
+    "HtmlAgilityPack/1.4.9": {
       "type": "package",
-      "sha512": "/JkZBXNwFoJJTwgk9b4AG2FqM70RX9u1nr437PQv3mId1yzYL651+ftM+MIrl3ilWJy4ye+tTYMXB5Dqsd0wmQ==",
+      "sha512": "anZIsi7bbHZ35ZZzvCA+gVWC/mEXVhcJjJvxr3wzUEDsOE4uk0Fa0ZiaxVn83AZpVKVO4RHyqamPkzzJbMUgmQ==",
       "files": [
-        "HtmlAgilityPack.NetCore.1.4.9.2.nupkg",
-        "HtmlAgilityPack.NetCore.1.4.9.2.nupkg.sha512",
-        "HtmlAgilityPack.NetCore.nuspec",
-        "lib/dnx452/HtmlAgilityPack.NetCore.dll",
-        "lib/dnx452/HtmlAgilityPack.NetCore.xml",
-        "lib/dnxcore50/HtmlAgilityPack.NetCore.dll",
-        "lib/dnxcore50/HtmlAgilityPack.NetCore.xml",
-        "lib/dotnet/HtmlAgilityPack.NetCore.dll",
-        "lib/dotnet/HtmlAgilityPack.NetCore.xml",
-        "lib/net45/HtmlAgilityPack.NetCore.dll",
-        "lib/net45/HtmlAgilityPack.NetCore.xml"
+        "HAPIcon.png",
+        "HtmlAgilityPack.1.4.9.nupkg",
+        "HtmlAgilityPack.1.4.9.nupkg.sha512",
+        "HtmlAgilityPack.nuspec",
+        "lib/Net20/HtmlAgilityPack.dll",
+        "lib/Net20/HtmlAgilityPack.pdb",
+        "lib/Net20/HtmlAgilityPack.xml",
+        "lib/Net40/HtmlAgilityPack.dll",
+        "lib/Net40/HtmlAgilityPack.pdb",
+        "lib/Net40/HtmlAgilityPack.XML",
+        "lib/Net40-client/HtmlAgilityPack.dll",
+        "lib/Net40-client/HtmlAgilityPack.pdb",
+        "lib/Net40-client/HtmlAgilityPack.xml",
+        "lib/Net45/HtmlAgilityPack.dll",
+        "lib/Net45/HtmlAgilityPack.pdb",
+        "lib/Net45/HtmlAgilityPack.XML",
+        "lib/NetCore45/HtmlAgilityPack.dll",
+        "lib/NetCore45/HtmlAgilityPack.pdb",
+        "lib/NetCore45/HtmlAgilityPack.pri",
+        "lib/NetCore45/HtmlAgilityPack.xml",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.dll",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.pdb",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.pdb",
+        "lib/sl3-wp/_._",
+        "lib/sl4/HtmlAgilityPack.dll",
+        "lib/sl4/HtmlAgilityPack.pdb",
+        "lib/sl4/HtmlAgilityPack.XML",
+        "lib/sl5/HtmlAgilityPack.dll",
+        "lib/sl5/HtmlAgilityPack.pdb",
+        "lib/sl5/HtmlAgilityPack.XML",
+        "readme.txt"
       ]
     },
     "Microsoft.AspNet.Antiforgery/1.0.0-rc1-final": {
@@ -6594,7 +6594,7 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "HtmlAgilityPack.NetCore >= 1.4.9.2",
+      "HtmlAgilityPack >= 1.4.9",
       "Microsoft.AspNet.IISPlatformHandler >= 1.0.0-rc1-final",
       "Microsoft.AspNet.Mvc >= 6.0.0-rc1-final",
       "Microsoft.AspNet.Server.Kestrel >= 1.0.0-rc1-final",
